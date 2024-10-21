@@ -19,4 +19,5 @@ An example of rendering images using Python plus OpenCV-python.
 ## References
 * [Display an Image in Java](https://www.delftstack.com/howto/java/display-an-image-in-java/)
 * [OpenCV-python](https://github.com/opencv/opencv-python)
+* [OpenCV Python Tutorials](https://docs.opencv.org/4.x/d0/de3/tutorial_py_intro.html)
 * [OpenCV](https://docs.opencv.org/4.x/)
