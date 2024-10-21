@@ -21,3 +21,5 @@ An example of rendering images using Python plus OpenCV-python.
 * [OpenCV-python](https://github.com/opencv/opencv-python)
 * [OpenCV Python Tutorials](https://docs.opencv.org/4.x/d0/de3/tutorial_py_intro.html)
 * [OpenCV](https://docs.opencv.org/4.x/)
+* [Getting Started with OpenCV](https://learnopencv.com/getting-started-with-opencv/)
+
