@@ -6,7 +6,7 @@ from cv2.mat_wrapper import Mat
 def get_python_version() -> str:
     return f'{sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}'
 
-def main(title: str):
+def show_image(title: str):
     img: Mat = cv.imread(cv.samples.findFile("starry_night.jpg"))
     if img is None:
         sys.exit("Could not read the image.")
@@ -24,5 +24,5 @@ def main(title: str):
 if __name__ == '__main__':
     msg = f'Python version {get_python_version()}'
     print(msg)
-    main(msg)
+    show_image(msg)
 
