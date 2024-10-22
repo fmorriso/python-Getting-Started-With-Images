@@ -10,7 +10,7 @@ def main(title: str):
     img: Mat = cv.imread(cv.samples.findFile("starry_night.jpg"))
     if img is None:
         sys.exit("Could not read the image.")
-    cv.imshow(f"Display window using {title}", img)
+    cv.imshow(f"Display image using {title}", img)
     k = cv.waitKey(0)
     # treat the s key as a signal to save the image as a .png
     if k == ord("s"):
